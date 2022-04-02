@@ -1,0 +1,85 @@
+<html lang='en'>
+
+  <!-- Mirrored from seantheme.com/hud-laravel/page_404_error.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Apr 2022 10:24:45 GMT -->
+  <head>
+    <meta charset='utf-8' />
+    <title>HUD | Error Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name='description' content='' />
+    <meta name='author' content='' />
+
+    <link
+      href='https://seantheme.com/hud-laravel/assets/css/vendor.min.css'
+      rel='stylesheet'
+    />
+    <link
+      href='https://seantheme.com/hud-laravel/assets/css/app.min.css'
+      rel='stylesheet'
+    />
+
+  </head>
+  <body class='pace-top'>
+
+    <div id='app' class='app app-full-height app-without-header'>
+
+      <div class='error-page'>
+
+        <div class='error-page-content'>
+          <div class='card mb-5 mx-auto' style='max-width: 320px;'>
+            <div class='card-body'>
+              <div class='card'>
+                <div class='error-code'>404</div>
+                <div class='card-arrow'>
+                  <div class='card-arrow-top-left'></div>
+                  <div class='card-arrow-top-right'></div>
+                  <div class='card-arrow-bottom-left'></div>
+                  <div class='card-arrow-bottom-right'></div>
+                </div>
+              </div>
+            </div>
+            <div class='card-arrow'>
+              <div class='card-arrow-top-left'></div>
+              <div class='card-arrow-top-right'></div>
+              <div class='card-arrow-bottom-left'></div>
+              <div class='card-arrow-bottom-right'></div>
+            </div>
+          </div>
+          <h1>Oops!</h1>
+          <h3>We can't seem to find the page you're looking for</h3>
+          <hr />
+          <p class='mb-1'>
+            Here are some helpful links instead:
+          </p>
+          <a
+            onclick="location.href = '/api/v1/swagger';" id="myButton"
+            class='btn btn-outline-theme px-3 rounded-pill'
+          ><i class='fa fa-arrow-left me-1 ms-n1'></i>Swagger</a>
+          <p></p>
+          <a
+           onclick="location.href = '/graphql';" id="myButton"
+            class='btn btn-outline-theme px-3 rounded-pill'
+          ><i class='fa fa-arrow-left me-1 ms-n1'></i>Graphql Playground </a>
+          <p>
+          <h2>{{ message }}</h2>
+          </p>
+        </div>
+      </div>
+
+      <a href='#' data-toggle='scroll-to-top' class='btn-scroll-top fade'><i
+          class='fa fa-arrow-up'
+        ></i></a>
+
+    </div>
+
+    <script
+      src='https://seantheme.com/hud-laravel/assets/js/vendor.min.js'
+      type='1f9e74e955827a087ab3f24e-text/javascript'
+    ></script>
+    <script
+      src='https://seantheme.com/hud-laravel/assets/js/app.min.js'
+      type='1f9e74e955827a087ab3f24e-text/javascript'
+    ></script>
+
+  </body>
+
+</html>
